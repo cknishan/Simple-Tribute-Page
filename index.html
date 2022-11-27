@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Tribute Page | Rowan Atkinson</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<!-- User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements. -->
+  <div id="main" class="container">
+    <h1 class="heading center padding"> < / Tribute Page > </h1>
+    <div id="title-header" class="theme p-x">
+  
+        <!-- User Story #2: I should see an element with a corresponding id="title", which contains a string (i.e. text) that describes the subject of the tribute page (e.g. "Dr. Norman Borlaug"). -->
+      <div id="title">
+        <h1 class="padding">Rowan Atkinson</h1>
+        <p>Rowan Sebastian Atkinson CBE (born 6 January 1955) is an English actor, comedian, and writer. He is best known for his work on the sitcoms Blackadder (1983–1989) and Mr. Bean (1990–1995).</p> <p>Atkinson first came to prominence in the BBC sketch comedy show Not the Nine O'Clock News (1979–1982), receiving the 1981 BAFTA for Best Entertainment Performance, and via his participation in The Secret Policeman's Ball (1979).</p> <p> His other work includes the James Bond film Never Say Never Again (1983), playing a bumbling vicar in Four Weddings and a Funeral (1994), voicing the red-billed hornbill Zazu in The Lion King (1994), and playing jewellery salesman Rufus in Love Actually (2003). Atkinson also featured in the BBC sitcom The Thin Blue Line (1995–1996). His work in theatre includes the 2009 West End revival of the musical Oliver!.</p>
+      </div>
+  <!-- User Story #3: I should see a div element with a corresponding id="img-div".
+  User Story #4: Within the img-div element, I should see an img element with a corresponding id="image".
+  User Story #5: Within the img-div element, I should see an element with a corresponding id="img-caption" that contains textual content describing the image shown in img-div. -->
+      <div id="img-div">
+        <figure id="img-id">
+          <img id="image" src="https://upload.wikimedia.org/wikipedia/commons/3/33/Mr._Bean_2011.jpg" id="img" alt="Mr.Bean's Picture">
+          <figcaption id="img-caption" class="center">Mr.Bean</figcaption>
+        </figure>
+      </div>
+    </div>
+
+
+
+
+<!-- User Story #6: I should see an element with a corresponding id="tribute-info", which contains textual content describing the subject of the tribute page. -->
+
+    <div id="tribute-info" class="padding theme">
+      <h2 class="center">Here's a timeline of some of Rowan Atkinson's Filmography :</h2>
+      <div id="timeline">
+        <ul>
+           <li>1979–1982:<strong> Not the Nine O'Clock News</strong></li>
+           <li>1983–1989:<strong>Blackadder</strong></li>
+           <li>1990–1995:<strong> Mr. Bean</strong></li>
+           <li>1995–1996:<strong>The Thin Blue Line</strong></li>
+           <li>1990:<strong>The Witches</strong></li>
+           <li>1994:<strong>The Lion King</strong></li>
+           <li>1997:<strong>Bean</strong></li>
+           <li>2003:<strong>Johnny English </strong></li>
+           <li>2007:<strong>Mr.Bean's Holiday</strong></li>
+           <li>2011:<strong>Johnny English Reborn</strong></li>
+           <li>2017:<strong> Huan Le Xi Ju Ren</strong></li>
+           <li>2018:<strong>Johnny English Strikes again</strong></li>
+        </ul>
+      </div>
+
+      
+      <div id="video" class="theme">
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube-nocookie.com/embed/HagVnWAeGcM"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+    </div>
+    <footer class="padding">
+      <h3>These info's are taken from Wikipedia. If you want to know more about him visit <a
+        href="https://en.wikipedia.org/wiki/Rowan_Atkinson" id="tribute-link" target="_blank"
+        rel="noopener noreferrer">Rowan Atkinson's Wikipedia page</a>.
+      </h3>
+    </footer>
+
+
+  </div>
+<!--   <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+</body>
+</html>
+
+<!-- User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
+
+User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
+
+User Story #9: The img element should be centered within its parent element. -->
